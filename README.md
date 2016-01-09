@@ -10,6 +10,9 @@
     - Development: `$ npm run-script start-dev`
 5. Open `http://localhost:3000`
 
+## Docker compose
+If you need a docker compose infrastructure see this project [https://github.com/chrvadala/docker-compose-examples](https://github.com/chrvadala/docker-compose-examples)
+
 ## Contributing
 Your contributions (issues and pull request) are appreciated!
 

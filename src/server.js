@@ -36,7 +36,7 @@ app.registerStaticRoute({route: '/', failback: "index.html", path: path.join(__d
 //boot
 app.boot()
   .then(function () {
-    app.listen({port: 3000});
+    app.listen({port: process.env.APP_PORT || 3000});
   })
   .catch(function (e) {
     console.log(e.stack);

@@ -1,0 +1,13 @@
+{
+  "name": "forester-boilerplate",
+  "version": "0.0.0",
+  "description": "A boilerplate project based on forester",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "forester": "^0.4.0",
+    "forester-auth": "^0.1.4",
+    "forester-explorer": "^0.1.4"
+  }
+}

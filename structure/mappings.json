@@ -1,0 +1,14 @@
+[
+  {
+    "collection": "articles",
+    "datasource": "db1"
+  },
+  {
+    "collection": "_users",
+    "datasource": "db1"
+  },
+  {
+    "collection": "_tokens",
+    "datasource": "db1"
+  }
+]

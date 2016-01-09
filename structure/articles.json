@@ -1,0 +1,20 @@
+{
+  "name": "articles",
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description":{
+      "type": "string",
+      "default": "default description",
+      "required": true
+    }
+  },
+  "defender": [
+    {
+      "action": "*",
+      "check": "skip"
+    }
+  ]
+}

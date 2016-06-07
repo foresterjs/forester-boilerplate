@@ -3,11 +3,11 @@
 ## Getting started
 
 1. Install dependencies ` $ npm install `
-2. Copy `config/auth.json.dist` to `config/auth.json` and configure this file
-3. Copy `config/db1.json.dist` to `config/db1.json` and configure this file
+2. Copy `config/auth.js.dist` to `config/auth.js` and configure this file
+3. Copy `config/db1.js.dist` to `config/db1.js` and configure this file
 4. Start project.
     - Production: `$ npm start`
-    - Development: `$ npm run-script start-dev`
+    - Development: `$ npm run dev`
 5. Open `http://localhost:3000`
 
 ## Docker compose

@@ -12,10 +12,10 @@ const collections = [
   require('../structure/articles.json')
 ];
 const dataSources = [
-  require('../config/db1.json')
+  require('../config/db1.js')
 ];
 const mappings = require('../structure/mappings.json');
-const authConfig = require('../config/auth.json');
+const authConfig = require('../config/auth.js');
 
 //init forester
 var app = new Forester();

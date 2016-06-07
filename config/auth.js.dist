@@ -1,5 +1,5 @@
-{
+module.exports = {
   "jwt": {
     "secret": "change_me"
   }
-}
+};

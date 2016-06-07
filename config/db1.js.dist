@@ -1,0 +1,8 @@
+module.exports = {
+  name: "db1",
+  adapter: "mongo", //OR tingo
+  options: {
+    connectionUri: "mongodb://localhost:27017/forester"
+    //path: path.join(__dirname, "../") //uncomment this with tingo
+  }
+};

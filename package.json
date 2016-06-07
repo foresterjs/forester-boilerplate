@@ -4,10 +4,10 @@
   "description": "A boilerplate project based on forester",
   "scripts": {
     "start": "node src/server.js",
-    "start-dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js"
   },
   "dependencies": {
-    "forester": "^0.4.0",
+    "forester": "^0.5.0",
     "forester-auth": "^0.1.4",
     "forester-explorer": "^0.1.4"
   },
